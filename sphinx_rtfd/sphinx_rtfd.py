@@ -19,10 +19,9 @@ class Greeter():
     def greet(self):
         """Greets a user.
 
-        .. Example::
         >>> my_greeter = Greeter('Hello', 'PUG')
         >>> my_greeter.greet()
-        'Hello, PUG!!'
+        'Hello, PUG!'
         """
         return "{}, {}!".format(self.msg, self.name)
 
